@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+     <style type="text/tailwindcss">
+      @theme {
+        --color-brand-500: #da373d;
+         
+
+      }
+    </style>
+</head>
+<body class="min-h-screen bg-cover bg-center bg-no-repeat
+         sm:bg-center md:bg-center lg:bg-center"
+        style="background-image: url('images/bgjapan2.jpg');">
+<nav class="container mx-auto flex justify-between items-center text-white p-4">
+    <div class="text-2xl font-bold tracking-tighter">
+        <span class="text-brand-500">Kizuna</span>Tours
+    </div>
+
+    <ul class="flex space-x-14 text-sm font-lg font-semibold">
+        <li class="group cursor-pointer">
+            <a href="index.html" class="group-hover:text-red transiton-colors duration-300">Home</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+        <li class="group cursor-pointer">
+            <a href="destinations.html" class="group-hover:text-red transiton-colors duration-300">Destinations</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+            
+        </li>
+        <li class="group cursor-pointer">
+            <a href="packages.html" class="group-hover:text-red transiton-colors duration-300">Packages</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+          <li class="group cursor-pointer">
+            <a href="about.html" class="group-hover:text-red transiton-colors duration-300">About Us</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+
+            
+</nav>  >
+    <section class="container mx-auto px-10 mt-40">
+    
+    <!-- Title -->
+    <div class="mb-14 text-center">
+        <h2 class="text-4xl font-bold text-white">
+            Top Destinations in Japan
+        </h2>
+        <p class="text-[#FFE4E6] mt-4 max-w-xl mx-auto">
+            From ancient temples to modern skylines, discover Japan’s most unforgettable places.
+        </p>
+    </div>
+
+   <!-- Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+    <!-- KYOTO -->
+    <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+        <img src="images/kyotonm.jpg"
+             class="w-full h-[380px] object-cover transform transition-transform duration-700 group-hover:scale-110">
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+
+        <div class="absolute bottom-0 p-6 transform transition-all duration-700 group-hover:bottom-6">
+            <h3 class="text-2xl font-bold text-white">Kyoto</h3>
+            <p class="text-[#FFE4E6] text-sm mt-1 opacity-0 group-hover:opacity-100">
+                Ancient temples, torii gates, and timeless streets.
+            </p>
+        </div>
+    </div>
+
+    <!-- TOKYO -->
+    <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+        <img src="images/tokyojp2jpg.jpg"
+             class="w-full h-[380px] object-cover transform transition-transform duration-700 
+                    group-hover:rotate-1 group-hover:scale-110">
+
+        <div class="absolute inset-0 bg-black/40"></div>
+
+        <div class="absolute bottom-0 p-6">
+            <div class="bg-black/60 backdrop-blur-md p-4 rounded-xl transform transition-all duration-700 group-hover:-translate-y-4">
+                <h3 class="text-xl font-bold text-white">Tokyo</h3>
+                <p class="text-[#FFE4E6] text-sm mt-1">
+                    Neon lights and endless city energy.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- OSAKA -->
+    <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+        <img src="images/osakajp2.jpg"
+             class="w-full h-[380px] object-cover transform transition-transform duration-700 group-hover:scale-105">
+
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80"></div>
+
+        <div class="absolute top-6 left-6 right-6 p-4 border border-white/30 rounded-xl 
+                    backdrop-blur-md transform transition-all duration-700 group-hover:translate-y-4">
+            <h3 class="text-xl font-bold text-white">Osaka</h3>
+            <p class="text-[#FFE4E6] text-sm mt-1">
+                Food capital and vibrant nightlife.
+            </p>
+        </div>
+    </div>
+
+    <!-- NARA -->
+    <div class="group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer">
+        <img src="images/narajp.jpg"
+             class="w-full h-[380px] object-cover transform transition-transform duration-700 group-hover:scale-110">
+
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <div class="absolute inset-0 flex flex-col justify-end p-6">
+            <div class="transform transition-all duration-700 group-hover:-translate-y-6">
+                <h3 class="text-2xl font-bold text-white">Nara</h3>
+                <p class="text-[#FFE4E6] text-sm mt-1">
+                    Famous deer park and ancient shrines.
+                </p>
+                
+            </div>
+            
+        </div>
+    </div>
+</section>
+<footer class="text-center text-white/70 text-sm py-6 mt-24">
+    © 2026 Kizuna Tours. All rights reserved.
+  </footer>
+</div>

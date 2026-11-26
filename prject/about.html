@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Kizuna Tours</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-brand-500: #da373d;
+      }
+    </style>
+</head>
+
+<body class="min-h-screen bg-cover bg-center bg-no-repeat"
+      style="background-image: url('images/bgjapan2.jpg');">
+
+<!-- NAVIGATION -->
+<nav class="container mx-auto flex justify-between items-center text-white p-4">
+    <div class="text-2xl font-bold tracking-tighter">
+        <span class="text-brand-500">Kizuna</span>Tours
+    </div>
+
+    <ul class="flex space-x-14 text-sm font-semibold">
+        <li class="group">
+            <a href="index.html">Home</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+        <li class="group">
+            <a href="destinations.html">Destinations</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+        <li class="group">
+            <a href="packages.html">Packages</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+        <li class="group">
+            <a href="about.html">About Us</a>
+            <span class="block max-w-full h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+    </ul>
+</nav>
+
+<!-- ABOUT US SECTION -->
+<section class="container mx-auto px-10 mt-32">
+    <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold text-white">About Kizuna Tours</h1>
+        <p class="text-[#FFE4E6] mt-4 max-w-2xl mx-auto">
+            Kizuna means “connection.” We connect travelers to the heart and soul of Japan
+            through unforgettable cultural and travel experiences.
+        </p>
+    </div>
+
+    <!-- ABOUT CARDS -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+        <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 text-white
+                    hover:bg-white/15 transition duration-500">
+            <h3 class="text-xl font-bold mb-3">Our Mission</h3>
+            <p class="text-sm text-[#FFE4E6] leading-relaxed">
+                To provide meaningful travel experiences that showcase Japan’s culture,
+                traditions, and modern lifestyle.
+            </p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 text-white
+                    hover:bg-white/15 transition duration-500">
+            <h3 class="text-xl font-bold mb-3">Why Choose Us</h3>
+            <p class="text-sm text-[#FFE4E6] leading-relaxed">
+                Carefully curated destinations, transparent pricing, and a seamless
+                booking experience designed for travelers.
+            </p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 text-white
+                    hover:bg-white/15 transition duration-500">
+            <h3 class="text-xl font-bold mb-3">Our Promise</h3>
+            <p class="text-sm text-[#FFE4E6] leading-relaxed">
+                Comfort, safety, and unforgettable memories wherever your journey
+                in Japan takes you.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="container mx-auto px-10 mt-32 mb-20">
+    <div class="text-center mb-14">
+        <h2 class="text-3xl font-bold text-white">Contact Us</h2>
+        <p class="text-[#FFE4E6] mt-3">
+            Have questions? We’re happy to help.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+        <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-6 text-white text-center
+                    hover:scale-105 transition duration-500">
+            <h4 class="font-bold text-lg mb-2">Email</h4>
+            <p class="text-sm text-[#FFE4E6]">support@kizunatours.jp</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-6 text-white text-center
+                    hover:scale-105 transition duration-500">
+            <h4 class="font-bold text-lg mb-2">Phone</h4>
+            <p class="text-sm text-[#FFE4E6]">+81 90 1234 5678</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-6 text-white text-center
+                    hover:scale-105 transition duration-500">
+            <h4 class="font-bold text-lg mb-2">Office</h4>
+            <p class="text-sm text-[#FFE4E6]">
+                Shibuya, Tokyo, Japan
+            </p>
+        </div>
+
+    </div>
+</section>
+<footer class="text-center text-white/70 text-sm py-6 mt-24">
+    © 2026 Kizuna Tours. All rights reserved.
+  </footer>
+</body>
+</html>

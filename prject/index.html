@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+     <style type="text/tailwindcss">
+      @theme {
+        --color-brand-500: #da373d;
+         
+
+      }
+    </style>
+    
+</head>
+<body class="min-h-screen bg-cover bg-center bg-no-repeat
+         sm:bg-center md:bg-center lg:bg-center"
+        style="background-image: url('images/bgjapan2.jpg');">
+<nav class="container mx-auto flex justify-between items-center text-white p-4">
+    <div class="text-2xl font-bold tracking-tighter">
+        <span class="text-brand-500">Kizuna</span>Tours
+    </div>
+
+    <ul class="flex space-x-14 text-sm font-lg font-semibold">
+        <li class="group cursor-pointer">
+            <a href="#" class="group-hover:text-red transiton-colors duration-300">Home</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+        <li class="group cursor-pointer">
+            <a href="destinations.html" class="group-hover:text-red transiton-colors duration-300">Destinations</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+            
+        </li>
+        <li class="group cursor-pointer">
+            <a href="packages.html" class="group-hover:text-red transiton-colors duration-300">Packages</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+        </li>
+          <li class="group cursor-pointer">
+            <a href="about.html" class="group-hover:text-red transiton-colors duration-300">About Us</a>
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-brand-500 mt-1"></span>
+</nav>  
+<main>
+    <section class="container mx-auto px-10 mt-28 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+    <!-- LEFT SIDE -->
+    <div class="space-y-6">
+        <h1 class="text-5xl font-bold text-white leading-tight">
+            Discover the Soul of Japan
+        </h1>
+
+        <p class="text-[#FFE4E6] text-base max-w-xl">
+            Explore ancient temples, glowing cityscapes, and breathtaking landscapes. 
+            Kizuna Tours brings you closer to Japan’s culture, beauty, and unforgettable experiences.
+        </p>
+
+        <button class="mt-6 px-6 py-3 bg-brand-500 text-white rounded-full font-semibold
+                       hover:bg-red-600 transition">
+            Explore Now
+        </button>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="group relative w-full max-w-lg mx-auto overflow-hidden rounded-3xl shadow-2xl">
+        <img src="images/kyoto3.jpg" 
+             class="w-full h-[420px] object-cover transform transition-transform duration-700 group-hover:scale-110">
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/40"></div>
+
+        <!-- Text on Image -->
+        <div class="absolute bottom-6 left-6 right-6 transform transition-transform duration-700 group-hover:-translate-y-4">
+            <h3 class="text-2xl font-bold text-white">Kyoto, Japan</h3>
+            <p class="text-[#FFE4E6] text-sm mt-1">
+                Walk through timeless streets and sacred temples.
+            </p>
+        </div>
+    </div>
+
+</section>
+<footer class="text-center text-white/70 text-sm py-6 mt-24">
+    © 2026 Kizuna Tours. All rights reserved.
+  </footer>
+
+    </main>
+
+</body>
+</html>
